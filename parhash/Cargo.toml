@@ -1,0 +1,11 @@
+[package]
+edition = "2021"
+name = "parhash"
+version = "0.1.0"
+
+[dependencies]
+rayon = { workspace = true }
+walkdir = { workspace = true }
+blake3 = { workspace = true }
+clap = { workspace = true, features = ["derive"] }
+anyhow = { workspace = true }

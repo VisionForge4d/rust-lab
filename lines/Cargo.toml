@@ -1,0 +1,8 @@
+[package]
+edition = "2021"
+name = "lines"
+version = "0.1.0"
+
+[dependencies]
+walkdir = "2"
+anyhow = "1"
